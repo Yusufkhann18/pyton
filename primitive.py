@@ -25,3 +25,14 @@ result = course.capitalize()
 print(f"the course: {course}, type: {result}")
 result = course.replace("Python", "Java")
 print(f"the course: {course}, type: {result}")
+
+print("===============boolean=================")
+# functions: bool(), and, or, not, is, is not int() input(), len(), type(), range(), sum(), min(), max()
+y = input("Enter a number: ")
+print("y", y)
+result = y.isnumeric()
+print(f"the y: {y}, type: {result}")
+# Truthy vs Falsy
+
+test_falsy = ""
+print("The FALSY:", bool(test_falsy))
